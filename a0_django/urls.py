@@ -26,7 +26,7 @@ from django.views.generic import TemplateView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('graphql/', csrf_exempt(GraphQLView.as_view(graphiql=True))),   # this makes it POST. turn to False in production
+    path('graphql/', csrf_exempt(GraphQLView.as_view(graphiql=False))),   # this makes it POST. turn to False in production
     path('rest/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('rest/hikes/', getHikes, name="hikes"),
     path('rest/hikesOnTrail/<int:id>/', getHikesOnTrail, name="hikesOnTrail"),
