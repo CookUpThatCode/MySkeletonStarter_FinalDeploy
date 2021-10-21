@@ -1,0 +1,515 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-10-10T01:54:02.329Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "joni",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-10-10T03:52:50.519Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "janet",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-10-10T03:55:37.350Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "will",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "e01hf3t2yq0dihj5gceuhvoc008wc0xm",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pABihSX7nsGMgOMVA0kpV0Z765NutDtf-_9lwi4rSVsPS9hTuIilDj9boTxkesO0h3rrcnY6rrMJHdFHrTLqaX8vB7u30HBXr41GeNwGAEioVNGswYDDDbzYLwDC6C9ArDe5XQ2kSkqZiaPjBb9COL9AcAGN4c:1mdEVg:Ildcj5FDW-n2oZakJ1jWx5NBIV755nDBgiJVVe4UzUE",
+        "expire_date": "2021-11-03T16:32:12.316Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "nn6fzkihu2ivtx3ckaxchd8d572wqcnn",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pABihSX7nsGMgOMVA0kpV0Z765NutDtf-_9lwi4rSVsPS9hTuIilDj9boTxkesO0h3rrcnY6rrMJHdFHrTLqaX8vB7u30HBXr41GeNwGAEioVNGswYDDDbzYLwDC6C9ArDe5XQ2kSkqZiaPjBb9COL9AcAGN4c:1mZNgd:Caux577HOAM-sigZ25wPV8v7VWgf6nwUKftJfd5m23o",
+        "expire_date": "2021-10-24T01:31:35.926Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rw4z899zn7od7i0jer8yli6nusb8720u",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pABihSX7nsGMgOMVA0kpV0Z765NutDtf-_9lwi4rSVsPS9hTuIilDj9boTxkesO0h3rrcnY6rrMJHdFHrTLqaX8vB7u30HBXr41GeNwGAEioVNGswYDDDbzYLwDC6C9ArDe5XQ2kSkqZiaPjBb9COL9AcAGN4c:1mZij8:q_CiXomUXNPArh9fSZ1gf3LMHB89J0-Dw8a_5krOK3M",
+        "expire_date": "2021-10-24T23:59:34.874Z"
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$LH5SkSwmJRHfnFgGpeqiHc$e53WraAFdgfWNMzKgDh2Y+9fFcsx/Xw756RlQlzSDOM=",
+        "last_login": "2021-10-20T16:32:12.298Z",
+        "is_superuser": true,
+        "username": "matte",
+        "email": "a@a.com",
+        "firstName": "",
+        "lastName": "",
+        "bio": "",
+        "accountCreation": "2021-10-10T01:31:18.395Z",
+        "is_active": true,
+        "is_staff": true,
+        "city": "",
+        "image": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$vg2FvHz2Xb6tCvnA3mIDu8$gllYG1tZEX0J4ydJB/WfgAPx4z0A1o/1S6pZs7NlIrw=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "joni",
+        "email": "",
+        "firstName": "",
+        "lastName": "",
+        "bio": "",
+        "accountCreation": "2021-10-10T01:54:02.328Z",
+        "is_active": false,
+        "is_staff": false,
+        "city": "",
+        "image": "ceH.png",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$soQTvQvPHvzG4hQyO7SUbz$HX5cLZUnwj03Nf44NIU4QGvjN+A7hCYRXlckAn3+MBM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "john",
+        "email": "r@r.com",
+        "firstName": "",
+        "lastName": "",
+        "bio": "",
+        "accountCreation": "2021-10-10T03:30:01.188Z",
+        "is_active": false,
+        "is_staff": false,
+        "city": "",
+        "image": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$kR8u1OXZg6opNYEhcYaXyb$xFqT8XPOoyBQx19w7N/5B+ai7kYQ3BApz6Rnh1NKE0g=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "tim",
+        "email": "t@t.com",
+        "firstName": "",
+        "lastName": "",
+        "bio": "",
+        "accountCreation": "2021-10-10T03:46:01.273Z",
+        "is_active": false,
+        "is_staff": false,
+        "city": "",
+        "image": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 5,
+    "fields": {
+        "password": "janet",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "janet",
+        "email": "j@j.com",
+        "firstName": "",
+        "lastName": "",
+        "bio": "",
+        "accountCreation": "2021-10-10T03:52:50.513Z",
+        "is_active": false,
+        "is_staff": false,
+        "city": "",
+        "image": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 6,
+    "fields": {
+        "password": "will",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "will",
+        "email": "w@w.com",
+        "firstName": "",
+        "lastName": "",
+        "bio": "",
+        "accountCreation": "2021-10-10T03:55:37.344Z",
+        "is_active": false,
+        "is_staff": true,
+        "city": "",
+        "image": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$r5ZBriuwD64ekBq2kFUSi8$KioayKIEb375BySmb8F9NPUAthfkI7YfoBaRSteZvT0=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "pres",
+        "email": "p@p.com",
+        "firstName": "",
+        "lastName": "",
+        "bio": "",
+        "accountCreation": "2021-10-10T03:56:39.717Z",
+        "is_active": true,
+        "is_staff": true,
+        "city": "",
+        "image": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$UJchtE9IlQu1rvij24q5Dv$ADPcOh1ZMwaQE98oIucmsqOrhnaqqKRSysk663+/7Nw=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "turtle",
+        "email": "turt@t.com",
+        "firstName": "",
+        "lastName": "",
+        "bio": "i like turtles",
+        "accountCreation": "2021-10-10T04:01:17.270Z",
+        "is_active": false,
+        "is_staff": false,
+        "city": "",
+        "image": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 9,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$KgsEWB4fZ9HoDZ71k8imFQ$ltp3AyGqkMn+Fpmb6fmjz7+3JZ01BKjD2oFH5ZRBXwU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "fart",
+        "email": "th@t.com",
+        "firstName": "",
+        "lastName": "",
+        "bio": "i like turtles",
+        "accountCreation": "2021-10-10T04:24:04.509Z",
+        "is_active": true,
+        "is_staff": false,
+        "city": "",
+        "image": "button_ZwaQpVA.png",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 10,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$HJiECGIiakDT2MJNS1HN6t$M9tJLKWzWUMiJdX8xeCxs/nZp+zTGWd7hKz7MGGm49w=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "fort",
+        "email": "h@t.com",
+        "firstName": "",
+        "lastName": "",
+        "bio": "i like turtles",
+        "accountCreation": "2021-10-10T04:47:36.116Z",
+        "is_active": true,
+        "is_staff": false,
+        "city": "",
+        "image": "btn9H.png",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 11,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$XzZu7eastUg6jHNnNsRb1A$j1TIvTg+fPeuwkd+LGrl9UvtzaRhoavKDQn4hGIUlC4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "henry",
+        "email": "h@henry.com",
+        "firstName": "",
+        "lastName": "",
+        "bio": "",
+        "accountCreation": "2021-10-15T00:50:23.757Z",
+        "is_active": true,
+        "is_staff": false,
+        "city": "",
+        "image": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 12,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$0ikl3tGT2pJq4D6O7cNeS7$3ME/zPhyqRMo+kmlaNnKFCJuwHqCD8rpzXr9DaU6sq8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "henryboi",
+        "email": "henryboi@h.com",
+        "firstName": "",
+        "lastName": "",
+        "bio": "",
+        "accountCreation": "2021-10-15T00:51:13.145Z",
+        "is_active": true,
+        "is_staff": false,
+        "city": "",
+        "image": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 13,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$P2pNKwSRAg2jS3Z2TXYDkn$BYeLBB973Kd/JCz6dIw0RrKrnDMvlZILKmmRA3ktX6M=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "franki",
+        "email": "franki@gmail.com",
+        "firstName": "",
+        "lastName": "",
+        "bio": "",
+        "accountCreation": "2021-10-15T00:55:51.495Z",
+        "is_active": true,
+        "is_staff": false,
+        "city": "",
+        "image": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 14,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$ZPkuM3gRr2htCEzkAV88jq$HozyJ3d4H0HEnmFKN73qudegsojYF1+LB5av53xoB9w=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "sarah",
+        "email": "s@stim.com",
+        "firstName": "",
+        "lastName": "",
+        "bio": "",
+        "accountCreation": "2021-10-15T00:58:52.825Z",
+        "is_active": true,
+        "is_staff": false,
+        "city": "",
+        "image": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 15,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$Au8RhT8vJ2oToirSYQNOpc$y6bDzpQpiWLRQJQH5MlTaZQVRlxUL0B04GAS1GimATM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "tonii",
+        "email": "tonii@g.com",
+        "firstName": "",
+        "lastName": "",
+        "bio": "",
+        "accountCreation": "2021-10-15T01:07:54.674Z",
+        "is_active": true,
+        "is_staff": false,
+        "city": "",
+        "image": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 16,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$AddYHREpt89SzQwqR5fzx8$Gwno4Egku/BtIdrtjaTxApZPMwvl7yFvzBr45pkqzV8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "jeni",
+        "email": "jeni@j.com",
+        "firstName": "",
+        "lastName": "",
+        "bio": "",
+        "accountCreation": "2021-10-15T02:21:15Z",
+        "is_active": true,
+        "is_staff": false,
+        "city": "",
+        "image": "equalsH.png",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.hiker",
+    "pk": 17,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$ACv1EtB6nOkNYuobEfWl2X$cpVoMTsSanSUcZOlilx8HQ8jQDkAJAmNXzIDNnkcCzE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "toon",
+        "email": "toon@t.com",
+        "firstName": "",
+        "lastName": "",
+        "bio": "",
+        "accountCreation": "2021-10-15T02:28:26.621Z",
+        "is_active": true,
+        "is_staff": false,
+        "city": "",
+        "image": "ce.png",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "uhg.trail",
+    "pk": 1,
+    "fields": {
+        "name": "Happy Trail"
+    }
+},
+{
+    "model": "uhg.trail",
+    "pk": 2,
+    "fields": {
+        "name": "Da Best Spot Evahh"
+    }
+},
+{
+    "model": "uhg.trail",
+    "pk": 3,
+    "fields": {
+        "name": "Do you even hike"
+    }
+},
+{
+    "model": "uhg.hike",
+    "pk": 1,
+    "fields": {
+        "trail": 1,
+        "hiker": 2,
+        "checkInDate": "2021-10-10T22:40:59.881Z"
+    }
+},
+{
+    "model": "uhg.hike",
+    "pk": 2,
+    "fields": {
+        "trail": 1,
+        "hiker": 3,
+        "checkInDate": "2021-10-10T22:41:06.121Z"
+    }
+},
+{
+    "model": "uhg.hike",
+    "pk": 3,
+    "fields": {
+        "trail": 1,
+        "hiker": 4,
+        "checkInDate": "2021-10-10T22:41:10.019Z"
+    }
+},
+{
+    "model": "uhg.hike",
+    "pk": 4,
+    "fields": {
+        "trail": 1,
+        "hiker": 4,
+        "checkInDate": "2021-10-10T22:41:10.985Z"
+    }
+},
+{
+    "model": "uhg.hike",
+    "pk": 5,
+    "fields": {
+        "trail": 1,
+        "hiker": 10,
+        "checkInDate": "2021-10-14T22:41:00.078Z"
+    }
+},
+{
+    "model": "uhg.hike",
+    "pk": 6,
+    "fields": {
+        "trail": 3,
+        "hiker": 10,
+        "checkInDate": "2021-10-14T22:42:43.711Z"
+    }
+},
+{
+    "model": "uhg.hike",
+    "pk": 7,
+    "fields": {
+        "trail": 2,
+        "hiker": 10,
+        "checkInDate": "2021-10-14T22:42:47.269Z"
+    }
+},
+{
+    "model": "uhg.hike",
+    "pk": 8,
+    "fields": {
+        "trail": 1,
+        "hiker": 10,
+        "checkInDate": "2021-10-14T22:42:51.123Z"
+    }
+}
+]
