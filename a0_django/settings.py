@@ -241,3 +241,5 @@ AWS_QUERYSTRING_AUTH = False
 
 if os.getcwd() == '/app':       # this is if we're working in our live deployment through Heroku
     DEBUG = False
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+    SECURE_SSL_REDIRECT = True
