@@ -32,7 +32,7 @@ const Home = () => {
     }, [])
 
     return (
-        <div>Home</div>
+        <div>Home Just Made Changes Huh</div>
     )
 }
 

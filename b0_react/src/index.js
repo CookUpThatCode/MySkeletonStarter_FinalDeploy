@@ -13,7 +13,8 @@ import {
 } from "@apollo/client";
 
 const client = new ApolloClient({
-    uri: 'http://localhost:8000/graphql/',
+    // uri: 'http://localhost:8000/graphql/',
+    uri: 'https://www.soursips.com/graphql/',
     cache: new InMemoryCache()
 });
 
